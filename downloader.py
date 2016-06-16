@@ -17,7 +17,7 @@ song_list=[]
 for link in soup.find_all('a'):
 #    print(link.get('href'))
     song_list.append(link.get('href'))
-    
+     
 #print song_list
 
 for link in song_list:
